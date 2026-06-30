@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/interviews";
+const API_URL = `${import.meta.env.VITE_API_URL}/interviews`;
 
 const handleApiError = (error) => {
   if (error.response?.status === 401) {
