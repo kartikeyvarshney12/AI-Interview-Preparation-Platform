@@ -1,0 +1,72 @@
+.result-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.result-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.score-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.score-value {
+  font-size: 60px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.score-label {
+  color: #666;
+  font-size: 18px;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  );
+  gap: 20px;
+}
+
+.feedback-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.feedback-card h2 {
+  margin-bottom: 15px;
+}
+
+.feedback-card ul {
+  padding-left: 20px;
+}
+
+.feedback-card li {
+  margin-bottom: 10px;
+}
+
+.overall-feedback {
+  background: white;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.loading-text,
+.error-text {
+  text-align: center;
+  margin-top: 50px;
+}

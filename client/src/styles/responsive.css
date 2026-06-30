@@ -1,0 +1,87 @@
+@media (max-width: 1024px) {
+
+  .dashboard-page,
+  .result-page {
+    padding: 20px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .dashboard-page,
+  .result-page {
+    padding: 15px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-actions {
+    flex-direction: column;
+  }
+
+  .action-btn {
+    width: 100%;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  .history-table {
+    min-width: 650px;
+  }
+
+  .score-circle {
+    width: 140px;
+    height: 140px;
+  }
+
+  .score-number {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .dashboard-title,
+  .result-title {
+    font-size: 1.8rem;
+  }
+
+  .navbar-container {
+    padding: 12px 0;
+  }
+
+  .logo-title {
+    font-size: 16px;
+  }
+
+  .logo-subtitle {
+    font-size: 11px;
+  }
+
+  .score-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .score-number {
+    font-size: 2rem;
+  }
+
+  .feedback-card,
+  .summary-card,
+  .section-card {
+    padding: 16px;
+  }
+}
