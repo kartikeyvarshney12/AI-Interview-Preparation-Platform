@@ -19,6 +19,13 @@ app.use(
 );
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "AI Interview Preparation Platform Backend is Running 🚀",
+  });
+});
+
 app.use(
   "/api/auth",
   require("./routes/authRoutes")
